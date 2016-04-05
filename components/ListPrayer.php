@@ -26,7 +26,7 @@ class ListPrayer extends ComponentBase
 
     public function onRun()
     {
-        $this->prayers = Prayer::get();
+        $this->prayers = Prayer::select('name', 'short_desc')->get();
        
     }
 
