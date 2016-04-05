@@ -1,0 +1,10 @@
+name: Prayers
+modelClass: Corywa\Prayerlist\Models\Prayer
+form: $/corywa/prayerlist/models/prayer/fields.yaml
+defaultRedirect: corywa/prayerlist/prayers
+create:
+    redirect: 'corywa/prayerlist/prayers/update/:id'
+    redirectClose: corywa/prayerlist/prayers
+update:
+    redirect: corywa/prayerlist/prayers
+    redirectClose: corywa/prayerlist/prayers

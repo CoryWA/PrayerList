@@ -1,0 +1,11 @@
+title: Prayers
+modelClass: Corywa\Prayerlist\Models\Prayer
+list: $/corywa/prayerlist/models/prayer/columns.yaml
+recordUrl: 'corywa/prayerlist/prayers/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

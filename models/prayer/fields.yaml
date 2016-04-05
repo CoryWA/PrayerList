@@ -1,0 +1,15 @@
+fields:
+    name:
+        label: Name
+        oc.commentPosition: ''
+        span: full
+        required: 1
+        type: text
+    short_desc:
+        label: Notes/Relations
+        size: large
+        oc.commentPosition: ''
+        span: full
+        cssClass: ''
+        default: 'No additional information'
+        type: richeditor

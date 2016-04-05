@@ -1,0 +1,8 @@
+
+{% set prayers = __SELF__.prayers %}
+{% for prayer in prayers %}
+<p>{{ prayer.name }}</p>
+{% if prayer.short_desc %}
+{{ prayer.short_desc|raw }}
+{% endif %}
+{% endfor %}

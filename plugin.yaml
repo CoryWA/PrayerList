@@ -1,0 +1,22 @@
+plugin:
+    name: 'corywa.prayerlist::lang.plugin.name'
+    description: 'corywa.prayerlist::lang.plugin.description'
+    author: CoryWa
+    icon: oc-icon-group
+    homepage: ''
+permissions:
+    corywa.prayerlist.manage_prayers:
+        tab: Prayers
+        label: 'Manage Prayers'
+navigation:
+    prayers:
+        label: Prayers
+        url: /corywa/prayerlist/prayers
+        icon: icon-group
+        permissions:
+            - corywa.prayerlist.manage_prayers
+        sideMenu:
+            prayerlist:
+                label: 'Prayer List'
+                url: /corywa/prayerlist/prayers
+                icon: icon-list
